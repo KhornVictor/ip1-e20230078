@@ -1,0 +1,62 @@
+# ==========================================
+# Frontend (frontend/)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.output/
+frontend/.cache/
+frontend/.turbo/
+frontend/.eslintcache
+frontend/coverage/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ==========================================
+# Backend (backend/)
+# ==========================================
+# Node / Python dependencies & caches
+backend/node_modules/
+backend/venv/
+backend/.venv/
+backend/env/
+backend/__pycache__/
+backend/*.py[cod]
+
+# Build outputs
+backend/dist/
+backend/build/
+backend/bin/
+backend/out/
+
+# Local databases & uploads
+backend/*.sqlite
+backend/*.sqlite3
+backend/*.db
+backend/uploads/
+backend/storage/
+backend/tmp/
+backend/temp/
+backend/coverage/
+
+# Backend environment files
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+
+# ==========================================
+# General & OS artifacts
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
